@@ -1,0 +1,327 @@
+* { margin:0;
+padding:0;}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(bg-signup.jpeg);
+    background-size: cover;
+    background-blend-mode:lighten;
+    justify-content: center;
+    align-content: center; 
+}
+  
+
+
+.signup .post{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-self: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 23px;
+    width: 310px;
+    height:max-content;
+    background-color: white;
+  }
+
+
+
+
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:4px;
+    padding: 8px;
+    color: black
+}
+
+
+
+.inputbox{
+    height: 33px;
+    width: 209px;
+    border-radius: 10px;
+    margin: 13px;
+    padding: 5px;
+}
+
+
+
+.btn{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin:8px;
+    padding: 8px;
+    width: 70px;
+}
+
+
+
+.susi{
+    display: flex;
+    position: absolute;
+    align-self: center;
+    width: 220px;
+}
+
+
+
+.btn1{
+
+    align-self: center;
+justify-content: center;
+
+margin:8px;
+padding: 8px;
+width: 100px;
+  border-radius: 10pt;
+  background-color: #f57674;}
+
+
+
+.NavigationBar{display:flex; 
+position: sticky;
+background: #2c5392;
+
+}
+
+
+.NavigationList{display: flex;
+    position: sticky;
+}
+
+.NavigationList li{display: flex;
+list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin: 32px;
+  color: whitesmoke;
+  font-size: 19px;
+ 
+}
+
+.NavigationList li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.NavigationList li a:hover{
+    color: #6dd2d2;
+}
+
+.quarks{display: flex;
+align-items: center;
+justify-content: center;
+height: 150px;
+background-color: rgb(206, 249, 249);
+position: sticky;}
+
+.quarks img{width: 50%;
+}
+
+
+.block{
+    display:flex;
+    margin: 33pt;
+    border: 1pt solid grey;
+    padding: 12pt;
+    
+}
+
+.heading{
+    font-size: 34pt;
+    position: relative;
+    align-self: center;
+    padding: 18pt;
+}
+
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+
+.image{
+    height: 229px;
+    width: 310px;
+    border-radius: 59px;
+    border: solid 4pt #000;
+}
+
+
+
+.article{
+    background-color: #cef9f9;
+    
+}
+
+
+
+
+.articlebar{
+    display: flex;
+    flex-direction: column;
+    width: 176pt;
+    height: max-content;
+    border: solid 1pt gray;
+    padding: 21pt;
+    margin: 14px;
+    position: sticky;
+    
+}
+
+.articlebar ul{
+    list-style: none;
+    
+}
+
+.articlebar ul li{
+    margin: 15pt;
+}
+
+.articlebar ul li a{
+    font-size: 20px;
+   
+    text-align: justify;
+}
+
+.articlebar li:hover{
+    background-color: #2c5392;
+}
+
+
+.articlebar li a{
+    text-decoration: none;
+    color: black;
+    font-size:  10pt;;
+}
+
+
+
+
+
+.main-article{
+    display: flex;
+    width:9535pt;
+    
+}
+
+
+.article-content{
+    display: flex;
+    flex-direction: column;
+    margin: 25pt;
+    width: 1069pt;
+}
+
+.article-content-text{
+    font-size: 15pt;
+}
+
+
+
+.article-content-heading{
+    font-size: 40pt;
+    position: relative;
+    align-self: center;
+    padding: 18pt;
+}
+
+
+.post{
+    display: flex;
+    flex-direction: column;
+    margin: 20pt;
+
+}
+
+
+.submit{
+    height: 36pt;
+    width: 111pt;
+    font-size: 19pt;
+    align-self: flex-end;
+    margin: 20pt;
+    background-color: #2c5392  ;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+.post{
+    margin: 0;
+    background-color:#cef9f9;
+}
+
+
+
+
+
+
+#post-text{
+    height: 587px;
+    width: 1800px;
+    font-size: 20pt;
+}
+
+.post-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:4px;
+    padding: 8px;
+    height:242px
+    
+      
+}
+
+
+#article-search-main{
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    background-color: #cef9f9;
+    align-content: center;
+    justify-content: center;
+    margin: 17px;
+    padding: 11px;
+}
+
+#article-search-box{
+    height: 34pt;
+    width: 606pt;
+    font-size: 20pt;
+    padding: 6pt;
+    border-radius: 28px;
+
+}
+
+
+#article-table{
+    display: flex;
+    margin: 12px;
+    font-size: 21pt;
+    flex-direction: column;
+}
+
+
+#article-table  a{
+    margin:45pt;
+    background-color: #2c5392;
+    color: white;
+    padding: 35pt;
+    text-align: justify;
+}
+
